@@ -4,38 +4,30 @@
  contains a detailed security scan report for various websites. The report is structured in a tabular format with multiple columns providing insights into the security posture of each website. Below is a description of the key columns and their significance:
 
 Columns Description:
-Website:
 
+WEBSITE:
 Lists the URLs of the websites that were scanned. Both HTTP and HTTPS versions of the websites are included.
 
-Technologies:
-
+TECHNOLOGIES:
 Identifies the technologies used by the websites, such as frameworks, libraries, and server types (e.g., React, Magento, Cloudflare, etc.).
 
-Missing Security Headers:
-
+MISSING_SECURITY_HEADERS:
 Highlights the security headers that are missing from the website's HTTP response. Security headers like Content-Security-Policy, Strict-Transport-Security, and X-XSS-Protection are crucial for protecting against various web vulnerabilities.
 
-SQL Vulnerabilities:
-
+SQL_VULNARABILITY:
 Indicates whether SQL-related vulnerabilities were detected. This includes potential SQL injection points or database-related errors.
 
-XSS Vulnerabilities:
-
+XSS_VULNARABILITY:
 Reports on Cross-Site Scripting (XSS) vulnerabilities, such as the presence of inline event handlers (e.g., onclick, onmouseover) or <script> tags with content inside, which could be exploited.
 
-Insecure Cookies:
-
+INSECURE_COOKIES:
 Lists cookies that are insecure due to missing attributes like HttpOnly, Secure, SameSite, or Max-Age/Expires. Insecure cookies can be exploited in attacks like session hijacking.
 
-JavaScript Variables:
-
+JAVASCRIPT_VARIABLES:
 Enumerates JavaScript variables found on the website. These variables could be potential targets for exploitation if not properly secured.
 
-JavaScript Functions:
-
+JAVASCRIPT_FUNCTIONS:
 Lists JavaScript functions detected on the website. Similar to variables, these functions could be exploited if they contain vulnerabilities.
 
-SSL/TLS Information:
-
+SSL/TLS_INFORMATION:
 Provides details about the SSL/TLS configuration of the website, including the issuer, subject, protocol version, cipher name, cipher bits, and certificate validity dates. This information is crucial for assessing the strength of the website's encryption.
